@@ -1,0 +1,94 @@
+body {
+    background-image:url(space2.gif);
+}
+    
+h1 {
+    font-family: monospace;
+    text-shadow: 3px 2px #888888;
+    font-size:35px;
+     color:#313131;
+      -webkit-animation:colorchange 3s infinite alternate;
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+         color: blue;
+      }
+      
+      10% {
+        color: #8e44ad;
+      }
+      
+      20% {
+         color: #1abc9c;
+      }
+      
+      30% {
+         color: #d35400;
+      }
+      
+      40% {
+         color: blue;
+      }
+      
+      50% {
+        color: #34495e;
+      }
+      
+      60% {
+        color: blue;
+      }
+      
+      70% {
+        color: #2980b9;
+      }
+      
+      80% {
+        color: #f1c40f;
+      }
+      
+      90% {
+        color: #2980b9;
+      }
+      
+      100% {
+        color: pink;
+      }
+}
+       
+p {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#container div {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+}
+        
+h3 {
+    font-size: 15px;
+    color: white;
+    font-family: monospace;
+}
+        
+#roblox {
+    border:5px white solid;
+    padding-top:50px;
+    padding-bottom:1.5cm;
+    text-align:center;
+}
+        
+.penguin{
+    border:5px white solid;
+    padding-bottom:2cm;
+    text-align:center;
+}
+        
+.minecraft{
+    border:5px white solid;
+    padding-bottom:1.12cm;
+    text-align:center;
+}
